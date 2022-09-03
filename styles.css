@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+   
+}
+
+.rounded-photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    object-fit: cover;
+    border: 8px solid #EFB0C9;
+}
+
+.blur-border {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+    background-color: #EFB0C9;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px; 
+}
+
+#bday-date {
+    background-color: #EFB0C9;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift {
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    background: url(images/nick.png);
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+
+#first-gif:hover {
+    background: url(images/gif-one.gif);
+    background-size: cover;
+}
+
+#second-gif:hover {
+    background: url(images/gif2.gif);
+    background-size: cover;
+}
+
+#third-gif:hover {
+    background: url(images/perfect-gif.gif);
+    background-size: cover;
+}
+
+#forth-gif:hover {
+    background: url(images/badass-gif.gif);
+    background-size: cover;
+}
+
+#fifth-gif:hover {
+    background: url(images/cheers-gif.gif);
+    background-size: cover;
+}
+
+#fifth-gif{
+    height: 200px;
+}
+.footer-link {
+    color: #ffffff;
+}
+footer {
+    
+    width: 400px;
+    text-align: center;
+    margin: 40px auto 20px;
+    font-style: italic;
+}
